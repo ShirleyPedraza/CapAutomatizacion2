@@ -20,7 +20,7 @@ public class PageObjectTourF extends PageFactory{ //esta extension me permite tr
 		
 	}
 	
-@FindBy(id="selectedweb")
+@FindBy(id="selectdweb")
 private WebElement listaSeleccionMultiple;
 
 @FindBy(className = "ue.table-ranking_cyclist-name")
@@ -39,4 +39,4 @@ public void imprimirListaCiclista() {
 	
 }
 
-}
+}}
